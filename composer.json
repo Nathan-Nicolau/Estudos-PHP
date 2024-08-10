@@ -1,0 +1,14 @@
+{
+    "name": "gamer/estudosphp",
+    "description": "Biblioteca inicial para buscas de endereços",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gamer\\Search\\": "src/Search/"
+        }
+    },
+    "require": {
+        "php": ">=7.2"
+    }
+}
